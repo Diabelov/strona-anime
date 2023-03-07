@@ -25,6 +25,6 @@ odtwarzania anime z magazynu serwera (nie z cda)
 # DONE
 ~~pierwsze anime~~  
 ~~początkowy wygląd~~  
-~~navbar (albo raczej jego początki)~~
+~~navbar (albo raczej jego początki)~~  
 ~~możliwość odtworzenia anime~~  
 
