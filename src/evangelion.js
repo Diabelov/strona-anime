@@ -34,7 +34,8 @@ function Evangelion_test() {
             </div>
         <div>
             <href>
-            <button style={{position: "relative", right: "-1173px"}}>Następny sezon</button></href>
+            <button style={{position: "relative", right: "-1173px"}}>Następny sezon</button></href> {/* nie zrobiony przcisk (trzeba zrobić), zmień sposób wyświetlania się odcinków czyli po kliknięciu
+            innego przycisku i guess, dodać opis anime, zmienić player na nie cda tylko lokalnie (z drugiego dysku), w końcu użyć api i najlepiej to na nutkach zapytać o wszystkie moduły*/}
         </div>
         </div>
     );

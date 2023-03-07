@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import App from '../app';
+import App from './App';
 import Evangelion from './evangelion';
 import Navigation from "./navbar";
 import Evangelion_test from "./evangelion_test";
@@ -16,7 +16,6 @@ root.render(
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/evangelion' element={<Evangelion />} />
-        <Route path='/test' element={<Evangelion_test />} />
     </Routes>
 </BrowserRouter>
 );
