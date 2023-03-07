@@ -12,6 +12,7 @@ function Evangelion_test() {
 
     return (
         <div>
+
             {data.map((item, index) => (
                 <button className='przycisk' key={index} onClick={() => handleIframeChange(index)}>
                     {item.buttonText}
@@ -31,6 +32,10 @@ function Evangelion_test() {
                     )
                 ))}
             </div>
+        <div>
+            <href>
+            <button style={{position: "relative", right: "-1173px"}}>Następny sezon</button></href>
+        </div>
         </div>
     );
 }

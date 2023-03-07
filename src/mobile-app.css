@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .onepiece {
+    width: 100%;
+  }
+}
+.tekst
+{
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 5px solid transparent;
+  width: 100%;
+}
