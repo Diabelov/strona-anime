@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import App from './App';
-import Evangelion from './evangelion';
+import Aot_1 from './aot_1';
 import Navigation from "./navbar";
-import Evangelion_test from "./evangelion_test";
+import Evangelion from "./evangelion";
 import Home from './home';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +15,7 @@ root.render(
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/evangelion' element={<Evangelion />} />
+        <Route path='/aot' element={<Aot_1 />} />
     </Routes>
 </BrowserRouter>
 );

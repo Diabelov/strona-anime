@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css'
 import Odtwarzacz from './odtwarzacz';
 
-function Evangelion() {
+function Aot_1() {
     return (
 
         <div>
-            <Odtwarzacz page='evangelion' />
+            <Odtwarzacz page='aot_1' />
         </div>
     );
 }
-export default Evangelion;
+export default Aot_1;

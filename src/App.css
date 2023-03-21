@@ -12,18 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -49,39 +37,34 @@ body {
 }
 .logo{
   display:flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   border: 5px solid transparent;
+}
+.row::after{
+content: "";
+  clear: both;
+    display: table;
 }
 
 .logo:hover{
   box-shadow: #5c417b 0px 0px 10px 5px;
   transition: 0.5s all ease-in-out;
 }
-
-.onepiece{
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
 .tekst{
 color: #FFFFFF;
 display:flex;
-justify-content:right
+justify-content:center;
+  width: 199px
 }
 
-div.item{
+.item{
   vertical-align: top;
   display: inline-block;
   text-align: center;
   width: 189px;
+  margin-right: 15px;
 }
-
-.caption
-
 .tekstcentrum{
   color: #CCD4DD;
   float: right;
