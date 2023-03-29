@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css'
-import Odtwarzacz from './odtwarzacz';
+import Odtwarzacz from '../odtwarzacz';
 
 function Evangelion() {
     return (

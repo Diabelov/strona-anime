@@ -1,26 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './index.css';
-import Aot_1 from './aot_1';
-import Navigation from "./navbar";
-import Evangelion from "./evangelion";
-import Home from './home';
-import reportWebVitals from './reportWebVitals';
+import Aot1 from './strony/aot_1';
+import Navigation from "./navbar.js";
+import Evangelion from "./strony/evangelion";
+import Home from './strony/home';
+import AnimeList from "./strony/api_test";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <BrowserRouter>
 <Navigation />
     <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home />} index />
         <Route path='/evangelion' element={<Evangelion />} />
-        <Route path='/aot' element={<Aot_1 />} />
+        <Route path='/aot' element={<Aot1 />} />
+        <Route path='/anime_list/:title' element={<AnimeList />} />
     </Routes>
 </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
